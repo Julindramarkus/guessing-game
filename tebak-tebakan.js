@@ -13,7 +13,7 @@ const rl = readline.createInterface({
 });
 console.log('Selamat datang di permainan Tebak Kata, silahkan isi dengan jawaban yang benar ya!!');
 console.log('Untuk bermain jawablah dengan jawaban yang sesuai!! ');
-console.log(`Gunakan 'skip' kalo lu lupa jawabannya`);
+console.log(`Gunakan 'skip' kalo anda lupa jawabannya`);
 
 
 var dataJson = JSON.parse(fs.readFileSync('data.json'));
