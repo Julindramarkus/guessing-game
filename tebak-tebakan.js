@@ -3,7 +3,7 @@ const readline = require('readline');
 
 if (process.argv[2] === undefined || process.argv[2].trim().toLowerCase() !== "data.json") {
   console.log("Tolong sertakan nama file sebagai inputan soalnya :)");
-  console.log("misalnya node tebak-tebakan.js data.json .. gitu ya ");
+  console.log("misalnya node tebak-tebakan.js data.json");
   process.exit(0);
 }
 
